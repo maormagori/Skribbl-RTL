@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Skribbl RTL",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "This extension fixes the way skribbl.io presents rtl languages such as hebrew and arabic. This extenstion works automatically, you only need to install!",
+    "description": "The description of the application"
+  }
+}
