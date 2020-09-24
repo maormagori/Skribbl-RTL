@@ -10,21 +10,15 @@
   "default_locale": "en",
   "background": {
     "scripts": [
-      "libs/polyfill.min.js",
-      "scripts/chromereload.js",
-      "scripts/background.js"
+      "libs/polyfill.min.js"
     ]
   },
-  "permissions": [
-    "tabs",
-    "http://*/*",
-    "https://*/*"
-  ],
+  
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "https://skribbl.io/",
+        "https://skribbl.io/*"
       ],
       "js": [
         "scripts/contentscript.js"
